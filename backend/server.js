@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors({ origin: ["http://localhost:3000", "https://my-chatbot-three-zeta.vercel.app/"] })); // Allow React app to talk to this server
+app.use(cors({ origin: ["http://localhost:3000", "https://my-chatbot-three-zeta.vercel.app"] })); // Allow React app to talk to this server
 app.use(express.json());
 
 // Initialize OpenAI with API key from .env file
