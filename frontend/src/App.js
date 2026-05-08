@@ -24,7 +24,7 @@ export default function Chatbot() {
 
     try {
       // 👇 Sends message to YOUR Node.js backend (not directly to OpenAI)
-      const res = await fetch("http://localhost:5000/api/chat", {
+      const res = await fetch("https://my-chatbot-1w8n.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: newMessages }),
