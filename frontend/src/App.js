@@ -53,7 +53,7 @@ export default function Chatbot() {
         <div style={{ background: "linear-gradient(135deg, #6366f1, #8b5cf6)", padding: "14px 18px", display: "flex", alignItems: "center", gap: 10 }}>
           <div style={{ width: 36, height: 36, borderRadius: "50%", background: "rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18 }}>🤖</div>
           <div>
-            <div style={{ color: "#fff", fontWeight: 700, fontSize: 15 }}>AI Assistant</div>
+            <div style={{ color: "#fff", fontWeight: 700, fontSize: 15 }}>Carley AI Assistant</div>
             <div style={{ color: "rgba(255,255,255,0.8)", fontSize: 12, display: "flex", alignItems: "center", gap: 4 }}>
               <span style={{ width: 7, height: 7, borderRadius: "50%", background: "#4ade80", display: "inline-block" }}></span>
               Online
